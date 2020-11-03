@@ -13,4 +13,5 @@ class Test_case(unittest.TestCase):
         time.sleep(2)
         cls.driver.quit()
     def test_a(self):
+        self.driver.find_element_by_xpath('''//*[@id="btnfirm"]''').click()
         time.sleep(2)

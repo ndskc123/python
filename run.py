@@ -7,7 +7,7 @@ def send_mail(report):
     yag.send(['v_yangyi12@126.com', 'v_yangyi13@126.com'], '测试报告', '你好哈！这是测试报告！', report)
     '''被发送的邮箱，主题，正文，附件'''
 if __name__ == '__main__':
-    suit=unittest.defaultTestLoader.discover('test_yangyi','test_*.py')
+    suit=unittest.defaultTestLoader.discover('test_yangyi','test*.py')
     '''被执行测试的文件'''
     fp=open(r'C:\Users\User\PycharmProjects\hospital\result\a.html','wb')
     '''报告被保存在哪里'''

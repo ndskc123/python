@@ -9,7 +9,7 @@ def send_mail(report):
 if __name__ == '__main__':
     suit=unittest.defaultTestLoader.discover('test_yangyi','test*.py')
     '''被执行测试的文件'''
-    fp=open(r'C:\Users\User\PycharmProjects\hospital\result\a.html','wb')
+    fp=open(r'C:\Users\User\PycharmProjects\hospital\result\test.html','wb')
     '''报告被保存在哪里'''
     runner=HTMLTestRunner(stream=fp,title='测试报告',description='chrome浏览器，win10系统')
     '''报告的内容'''
@@ -17,5 +17,5 @@ if __name__ == '__main__':
     '''运行报告'''
     fp.close()
     '''关闭被保存文件'''
-    send_mail(r'C:\Users\User\PycharmProjects\hospital\result\a.html')
+    send_mail(r'C:\Users\User\PycharmProjects\hospital\result\test.html')
     '''发送邮件'''

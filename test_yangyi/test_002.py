@@ -22,7 +22,7 @@ class Test_appium(unittest.TestCase):
         cls.driver.quit()
     def test_a(self):
         time.sleep(2)
-        
+
 
 if __name__ == '__main__':
     unittest.main()

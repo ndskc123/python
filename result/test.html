@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2020-11-04 09:37:24</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:34.918377</p>
-<p class='attribute'><strong>Status:</strong> Pass 2</p>
+<p class='attribute'><strong>Start Time:</strong> 2020-11-06 19:29:19</p>
+<p class='attribute'><strong>Duration:</strong> 0:05:21.362058</p>
+<p class='attribute'><strong>Status:</strong> Pass 5 Failure 1</p>
 
 <p class='description'>chrome浏览器，win10系统</p>
 </div>
@@ -222,7 +222,7 @@ function showOutput(id, name) {
 </tr>
 
 <tr class='passClass'>
-    <td>test_002.Test_appium</td>
+    <td>test_faxian.Test_faxian</td>
     <td>1</td>
     <td>1</td>
     <td>0</td>
@@ -231,12 +231,33 @@ function showOutput(id, name) {
 </tr>
 
 <tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_a</div></td>
-    <td colspan='5' align='center'>pass</td>
+    <td class='none'><div class='testcase'>test_faxian: 发现</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        pass</a>
+
+    <div id='div_pt1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.1: 发现
+发现校验通过
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
 </tr>
 
 <tr class='passClass'>
-    <td>test_case04.Test_case</td>
+    <td>test_faxian_jingangwei_fuli.Test_faxian_fuli</td>
     <td>1</td>
     <td>1</td>
     <td>0</td>
@@ -245,7 +266,7 @@ function showOutput(id, name) {
 </tr>
 
 <tr id='pt2.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_a</div></td>
+    <td class='none'><div class='testcase'>test_fuli: 发现-福利</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
@@ -259,7 +280,160 @@ function showOutput(id, name) {
         </div>
         <pre>
         
-pt2.1: heelo
+pt2.1: 福利
+第一次校验金刚位福利通过
+福利
+第二次校验金刚位福利通过
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='failClass'>
+    <td>test_faxian_jingangwei_renwu.Test_faxian_fuli</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c3',1)">Detail</a></td>
+</tr>
+
+<tr id='ft3.1' class='none'>
+    <td class='failCase'><div class='testcase'>test_renwu: 金刚位-任务</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.1')" >
+        fail</a>
+
+    <div id='div_ft3.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft3.1: 
+Traceback (most recent call last):
+  File "C:\Users\User\PycharmProjects\hospital\test_appium\test_faxian_jingangwei_renwu.py", line 23, in test_renwu
+    self.assertEqual(renwu_text, '任务')
+AssertionError: '' != '任务'
++ 任务
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>test_faxian_jingangwei_xinyou.Test_zhaoyouxi</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c4',1)">Detail</a></td>
+</tr>
+
+<tr id='pt4.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_xinyou: 金刚位-新游</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.1')" >
+        pass</a>
+
+    <div id='div_pt4.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt4.1: 新游
+金刚位新游第一次校验通过
+新游
+金刚位新游第二次校验通过
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>test_faxian_jingangwei_yinghuafei_.Test_zhaoyouxi</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c5',1)">Detail</a></td>
+</tr>
+
+<tr id='pt5.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_yinghuafei: 金刚位-赢话费</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt5.1')" >
+        pass</a>
+
+    <div id='div_pt5.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt5.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt5.1: 赢话费
+金刚位赢话费第一次校验通过
+赢话费
+金刚位赢话费第二次校验通过
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>test_faxian_jingangwei_zhaoyouxi.Test_zhaoyouxi</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c6',1)">Detail</a></td>
+</tr>
+
+<tr id='pt6.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_zhaoyouxi: 发现-找游戏</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt6.1')" >
+        pass</a>
+
+    <div id='div_pt6.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt6.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt6.1: 找游戏
+第一次校验金刚位找游戏通过
+找游戏
+第一次校验金刚位找游戏通过
 
 
         </pre>
@@ -271,9 +445,9 @@ pt2.1: heelo
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>2</td>
-    <td>2</td>
-    <td>0</td>
+    <td>6</td>
+    <td>5</td>
+    <td>1</td>
     <td>0</td>
     <td>&nbsp;</td>
 </tr>

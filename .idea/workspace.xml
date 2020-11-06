@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5749be2-2728-4d52-80c7-789a1bbc8c2f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test_appium/test_faxian.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_yangyi/test_case04.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_yangyi/test_case04.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/web_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/web_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_appium/test_appium_case.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/a.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/test_case1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/test_case2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/test_case3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_mysql/a.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_mysql/数据导入.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_mysql/数据导出.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_student/test_student_01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_yangyi/test_001.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_yangyi/test_002.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_yangyi/test_case04.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +35,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1j5emxdOhocUnUPdHjZ2dTY1GkE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -46,28 +60,7 @@
       <recent name="C:\Users\User\PycharmProjects\hospital\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_student_01">
-    <configuration name="a" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="hospital" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/a.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.run">
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hospital" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,76 +82,83 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_001" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_appium.test_faxian" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="hospital" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_yangyi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_appium" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_yangyi/test_001.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_appium.test_faxian&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test_student_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_appium.test_faxian_jingangwei_zhaoyouxi" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="hospital" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_student" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_appium" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_student/test_student_01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_appium.test_faxian_jingangwei_zhaoyouxi&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="web_tools" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_appium.test_faxian_jingangwei_zhaoyouxi.Test_zhaoyouxi" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="hospital" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_appium" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/web_tools.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_appium.test_faxian_jingangwei_zhaoyouxi.Test_zhaoyouxi&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_faxian_jingangwei_zhaoyouxi.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="hospital" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_appium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_appium/test_faxian_jingangwei_zhaoyouxi.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_faxian.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="hospital" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_appium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_appium/test_faxian.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_student_01" />
-        <item itemvalue="Python.web_tools" />
-        <item itemvalue="Python.a" />
         <item itemvalue="Python.run" />
-        <item itemvalue="Python.test_001" />
+        <item itemvalue="Python tests.Unittests for test_appium.test_faxian_jingangwei_zhaoyouxi.Test_zhaoyouxi" />
+        <item itemvalue="Python tests.Unittests in test_faxian_jingangwei_zhaoyouxi.py" />
+        <item itemvalue="Python tests.Unittests for test_appium.test_faxian_jingangwei_zhaoyouxi" />
+        <item itemvalue="Python tests.Unittests for test_appium.test_faxian" />
       </list>
     </recent_temporary>
   </component>
@@ -184,22 +184,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="883" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1604453676067" />
-    <state width="745" height="237" key="GridCell.Tab.0.bottom" timestamp="1604656939305">
+    <state width="954" height="237" key="GridCell.Tab.0.bottom" timestamp="1604662158544">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="237" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604656939305" />
-    <state width="745" height="237" key="GridCell.Tab.0.center" timestamp="1604656939304">
+    <state width="954" height="237" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604662158544" />
+    <state width="954" height="237" key="GridCell.Tab.0.center" timestamp="1604662158544">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="237" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604656939304" />
-    <state width="745" height="237" key="GridCell.Tab.0.left" timestamp="1604656939304">
+    <state width="954" height="237" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604662158544" />
+    <state width="954" height="237" key="GridCell.Tab.0.left" timestamp="1604662158543">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="237" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604656939304" />
-    <state width="745" height="237" key="GridCell.Tab.0.right" timestamp="1604656939305">
+    <state width="954" height="237" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604662158543" />
+    <state width="954" height="237" key="GridCell.Tab.0.right" timestamp="1604662158544">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="237" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604656939305" />
+    <state width="954" height="237" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604662158544" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1603200881314">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

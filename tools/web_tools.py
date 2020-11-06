@@ -62,7 +62,7 @@ class Test():
         driver.test_trackball('window.scrollBy(0,300)')
         '''
         time.sleep(2)
-        self.driver.set_window_size(1200, 600)
+        self.driver.set_window_size(600, 600)
         self.driver.execute_script(js)
         self.driver.maximize_window()
     def test_move_mouse(self, elements):

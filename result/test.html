@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2020-11-06 19:39:28</p>
-<p class='attribute'><strong>Duration:</strong> 0:06:06.620608</p>
-<p class='attribute'><strong>Status:</strong> Pass 5 Failure 1</p>
+<p class='attribute'><strong>Start Time:</strong> 2020-11-06 19:55:29</p>
+<p class='attribute'><strong>Duration:</strong> 0:05:30.683709</p>
+<p class='attribute'><strong>Status:</strong> Pass 6</p>
 
 <p class='description'>chrome浏览器，win10系统</p>
 </div>
@@ -281,9 +281,9 @@ pt1.1: 发现
         <pre>
         
 pt2.1: 福利
-第一次校验金刚位福利通过
+金刚位福利第一次校验通过
 福利
-第二次校验金刚位福利通过
+金刚位福利第二次校验通过
 
 
         </pre>
@@ -293,36 +293,34 @@ pt2.1: 福利
     </td>
 </tr>
 
-<tr class='failClass'>
+<tr class='passClass'>
     <td>test_faxian_jingangwei_renwu.Test_faxian_fuli</td>
     <td>1</td>
-    <td>0</td>
     <td>1</td>
+    <td>0</td>
     <td>0</td>
     <td><a href="javascript:showClassDetail('c3',1)">Detail</a></td>
 </tr>
 
-<tr id='ft3.1' class='none'>
-    <td class='failCase'><div class='testcase'>test_renwu: 发现-金刚位-任务</div></td>
+<tr id='pt3.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_renwu: 发现-金刚位-任务</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.1')" >
-        fail</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.1')" >
+        pass</a>
 
-    <div id='div_ft3.1' class="popup_window">
+    <div id='div_pt3.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft3.1: 
-Traceback (most recent call last):
-  File "D:\jenkins\workspace\test01\test_appium\test_faxian_jingangwei_renwu.py", line 23, in test_renwu
-    self.assertEqual(renwu_text, '任务')
-AssertionError: '' != '任务'
-+ 任务
+pt3.1: 任务
+金刚位任务第一次校验通过
+任务
+金刚位任务第二次校验通过
 
 
         </pre>
@@ -431,9 +429,9 @@ pt5.1: 赢话费
         <pre>
         
 pt6.1: 找游戏
-第一次校验金刚位找游戏通过
+金刚位找游戏第一次校验通过
 找游戏
-第一次校验金刚位找游戏通过
+金刚位找游戏第二次校验通过
 
 
         </pre>
@@ -446,8 +444,8 @@ pt6.1: 找游戏
 <tr id='total_row'>
     <td>Total</td>
     <td>6</td>
-    <td>5</td>
-    <td>1</td>
+    <td>6</td>
+    <td>0</td>
     <td>0</td>
     <td>&nbsp;</td>
 </tr>

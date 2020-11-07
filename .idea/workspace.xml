@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5749be2-2728-4d52-80c7-789a1bbc8c2f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone/xiaomi.py" beforeDir="false" afterPath="$PROJECT_DIR$/phone/xiaomi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/result/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/app_tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/app_tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_appium/test_faxian.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_appium/test_faxian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_appium/test_faxian_haoyouyizhan.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_appium/test_faxian_haoyouyizhan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_appium/test_faxian_jingangwei_fuli.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_appium/test_faxian_jingangwei_fuli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_appium/test_faxian_jingangwei_renwu.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_appium/test_faxian_jingangwei_renwu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_appium/test_faxian_jingangwei_xinyou.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_appium/test_faxian_jingangwei_xinyou.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_appium/test_faxian_jingangwei_yinghuafei_.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_appium/test_faxian_jingangwei_yinghuafei_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_appium/test_faxian_jingangwei_zhaoyouxi.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_appium/test_faxian_jingangwei_zhaoyouxi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_appium/test_faxian_nikenengxihuan.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_appium/test_faxian_nikenengxihuan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_appium/test_faxian_remenyouxi.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_appium/test_faxian_remenyouxi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

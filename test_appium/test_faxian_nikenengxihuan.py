@@ -4,6 +4,7 @@ import unittest
 from appium import webdriver
 from tools import app_tools
 class Test_faxian(unittest.TestCase):
+    '''你可能喜欢模块'''
     @classmethod
     def setUpClass(cls):
         cls.driver=webdriver.Remote('http://127.0.0.1:4723/wd/hub',xiaomi.phone)

@@ -20,40 +20,44 @@ class Tools():
         print(text_name)
         return text_name
 
-    def swipeUp(self, t=500, n=1):
+    def swipeUp(self, t=600, n=1):
         '''向上滑动屏幕'''
+        time.sleep(2)
         l = self.driver.get_window_size()
         x1 = l['width'] * 0.5
-        y1 = l['height'] * 0.75
-        y2 = l['height'] * 0.25
+        y1 = l['height'] * 0.65
+        y2 = l['height'] * 0.35
         for i in range(n):
             self.driver.swipe(x1, y1, x1, y2, t)
-
+        time.sleep(2)
     def swipeDown(self, t=500, n=1):
         '''向下滑动屏幕'''
+        time.sleep(2)
         l = self.driver.get_window_size()
         x1 = l['width'] * 0.5
-        y1 = l['height'] * 0.25
-        y2 = l['height'] * 0.75
+        y1 = l['height'] * 0.35
+        y2 = l['height'] * 0.65
         for i in range(n):
             self.driver.swipe(x1, y1, x1, y2, t)
-
+        time.sleep(2)
     def swipLeft(self, t=500, n=1):
         '''向左滑动屏幕'''
+        time.sleep(2)
         l = self.driver.get_window_size()
-        x1 = l['width'] * 0.75
+        x1 = l['width'] * 0.65
         y1 = l['height'] * 0.5
-        x2 = l['width'] * 0.25
+        x2 = l['width'] * 0.35
         for i in range(n):
             self.driver.swipe(x1, y1, x2, y1, t)
-
+        time.sleep(2)
     def swipRight(self, t=500, n=1):
         '''向右滑动屏幕'''
+        time.sleep(2)
         l = self.driver.get_window_size()
-        x1 = l['width'] * 0.25
+        x1 = l['width'] * 0.35
         y1 = l['height'] * 0.5
-        x2 = l['width'] * 0.75
+        x2 = l['width'] * 0.65
         for i in range(n):
             self.driver.swipe(x1, y1, x2, y1, t)
-
+        time.sleep(2)
 

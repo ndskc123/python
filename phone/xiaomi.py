@@ -7,3 +7,5 @@ phone={
     'appActivity':'com.baidu.searchbox.SplashActivity',
     'noReset':'True'
 }
+
+
